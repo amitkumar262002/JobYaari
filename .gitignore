@@ -1,0 +1,16 @@
+# Local configuration
+config/database.php
+
+# Uploaded images (keep the directory but ignore files)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Temporary/Scratch files
+scratch/
+.gemini/
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
